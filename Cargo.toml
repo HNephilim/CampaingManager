@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "campaing_manager",
+    "creature",
+    "parser",
+    "render_api",
+    "blob_creator"
+]
+resolver = "2"

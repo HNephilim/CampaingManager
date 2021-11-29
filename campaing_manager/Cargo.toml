@@ -1,0 +1,20 @@
+[package]
+name = "campaing_manager"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+imgui = "0.8"
+render_api = {path = "../render_api"}
+creature = {path = "../creature"}
+
+
+bincode = "1.3.3"
+
+
+anyhow = "*"
+
+rayon = "*"
+image = "0.23.14"
